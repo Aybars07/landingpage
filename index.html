@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+      .header{
+        background-color: gray;
+        height:1000px;
+        background-image: url(img2/olartik.jpeg);
+        background-position: no-repeat;
+        background-size: 100%;
+        
+        
+      }
+      .header_text{
+        position:fixed;
+        color: red;
+        top: 50px;
+        left: 300px;
+      }
+      .menu{
+        word-spacing: 10px;
+        position: fixed;
+        right: 400px;
+        float: right;
+        margin-top: 70px;
+      }
+      
+      a:link{
+        font-size: 25px;
+        color: red;
+        text-decoration: none;
+      }
+      a:hover{
+        color: red;
+      }
+      a:visited{
+        color: red;
+      }
+      .header_paragraf{
+        position: relative;
+        bottom: 200px;
+        left: 300px;
+        color: white;
+      }
+      .email{
+        position: relative;
+        bottom: 350px;
+        right: 500px;
+        float: right;
+      }
+      .about_me{
+        text-align: center;
+      }
+      .main_img{
+        width: 15%;
+        position: relative;
+               
+      }
+      .main_content{
+        text-align: center;
+      }
+      p{
+        font-family: "Roboto";
+      }
+      .main_portfolio-images{
+        width: 100%;
+      }
+      .main_content{
+        background-color: greenyellow;
+      }
+    
+      .footer{
+        width: 100%;
+        height: 200px;
+        background: gray;
+      }
+      .footer_text{
+        position: relative;
+        top: 40px;
+        left: 200px;
+      }
+      .main_portfolio_header-text{
+        text-align: center;
+      }
+      .footer_nav{
+        float: right;
+        position: relative;
+        right: 300px;
+        bottom: 40px;
+      }
+    </style>
+</head>
+<body>
+   <header>
+     <div class="header">
+        <h1 class="header_text">My landing Page</h1>
+        <div class="menu">
+            <nav>
+            <a href="#">HOME</a>
+            <a href="#main_content">ABOUT ME</a>
+            <a href="#">PORTFOLIO</a>
+        </nav>
+        </div>
+    </div>
+    <div class="header_paragraf">
+        <h2 class="header_h2">The Art Of The Streets</h2>
+        <p>“You don't take a photograph, you make it.”</p>
+        <p>- Ansel Adams</p>
+    </div>
+    <div class="email">
+        <input type="name" id="name" name="name" placeholder="Name">
+        <br><br>
+        <input type="phone" id="phone" name="phone" placeholder="Phone">
+        <br><br>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <br><br>
+        <input type="submit" name="submit" placeholder="CONTACT US">
+    </div>
+   </header>
+   
+   <main>
+    <nav class="main_nav">
+        <h2 class="about_me">About Me</h2>
+    </nav>
+    <section class="main_content">
+        <img src="img2/man.webp" class="main_img">
+        <p>The About page is the core description of your website. Here is where you let clients know what your website is about. You can edit all of this text and replace it with what you want to write.<br> 
+            For example you can let them know how long you have been in business, what makes your company special, what are its core values and more.</p>
+            <p>The About page is the core description of your website. Here is where you let clients know what your website is about. You can edit all of this text and replace it with what you want to write.<br>
+                 For example you can let them know how long you have been in business, what makes your company special, what are its core values and more.</p>
+    </section>
+    <br><br><br>
+    <section class="main_portfolio">
+        <h2 class="main_portfolio_header-text">PORTFOLIO</h2>
+        <div class="main_portfolio-images">
+            <img src="img2/railway station.webp" width="30%">
+            <img src="img2/escalator.webp" width="30%">
+            <img src="img2/flats.webp" width="30%">
+        </div>
+        <div class="main_portfolio-images2"> 
+            <img src="img2/depo.webp" alt="" width="30%">
+            <img src="img2/buss.webp" alt="" width="30%">
+            <img src="img2/snowman.webp" alt="" width="30%" height="400px">
+        </div>
+    </section>
+   </main>
+   <footer>
+    <div class="footer">
+        <div class="footer_text">
+            <h3>My Landing Page</h3>
+            <p>Copyright © 2022 All rights reserved</p>
+            <p>Powered By</p>
+        </div>
+        <div class="footer_nav">
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#main_content">ABOUT ME</a>
+                <a href="#">PORTFOLIO</a>
+            </nav>
+        </div>
+    </div>
+   </footer>
+</body>
+</html>
